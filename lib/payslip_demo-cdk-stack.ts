@@ -157,7 +157,6 @@ export class PayslipDemoCdkStack extends cdk.Stack {
       repo: 'payslip-demo-microservice',
       branch: 'main',
       oauthToken: cdk.SecretValue.secretsManager("/my/github/token"),
-      // oauthToken: cdk.SecretValue.plainText('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'),
       output: sourceOutput
     });
 
